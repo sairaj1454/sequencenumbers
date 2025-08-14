@@ -3,7 +3,6 @@ from flask import Flask, render_template, request, send_file, redirect, url_for,
 from werkzeug.utils import secure_filename
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
-import pandas as pd
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
